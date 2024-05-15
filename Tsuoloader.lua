@@ -1,3 +1,6 @@
+local Players = game:GetService("Players")
+local Player = Players.LocalPlayer
+
 local old;
 old = hookmetamethod(game, "__namecall", newcclosure(function(self, ...)
   local method = getnamecallmethod():lower()
