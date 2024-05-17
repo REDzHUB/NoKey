@@ -6,6 +6,8 @@ old = hookfunction(game.HttpGet, newcclosure(function(self, str, ...)
       return old(self, git.."REDzHUB/NoKey/main/BypassTsuo/FastAttack.lua", ...)
     elseif str == git.."memaybeohub/Function-Scripts/main/Magnetism.lua" then
       return old(self, git.."REDzHUB/NoKey/main/BypassTsuo/Magnetism.lua", ...)
+    elseif str == git.."memaybeohub/Function-Scripts/main/uiloader.lua" then
+      return old(self, git.."REDzHUB/NoKey/main/BypassTsuo/uiloader.lua", ...)
     end
   end
   return old(self, str, ...)
