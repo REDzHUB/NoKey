@@ -1,5 +1,3 @@
-local setcb = setclipboard
-
 local old
 old = hookfunction(game.HttpGet, newcclosure(function(self, str, ...)
   if type(str) == "string" then
